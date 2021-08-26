@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="tacos">
+        <button type="button">please do not submit the form!!!</button>
+        <p> <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p> <label for="password">Enter A Password:</label>
+            <input id="password" type="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Enter a Color</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label action="number">Enter a Number
+                <input type="number" placeholder="enter a number">
+        </p>
+
+
+
+        <Button>Submit</Button>
+        <input type="submit" value="click me!">
+    </form>
+    <hr>
+    <h2>Hijacking Search Engines</h2>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+
+    <hr>
+    <form action="https:www.google.com/search">
+        <input type="text" name="q">
+        <button>search google</button>
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to everything</label>
+
+        <p>
+            <label for="XS">XS</label>
+            <input type="Radio" name="shirt size" id="XS" value="xs">
+            <label for="MD">MD</label>
+            <input type="Radio" name="shirt size" id="MD" value="md">
+            <label for="LG">LG</label>
+            <input type="Radio" name="shirt size" id="LG" value="lg">
+        </p>
+        <p>
+            <label for="meal">Please Select A Meal</label>
+            <select name="meal" id="meal">
+                <option value="">please select a meal</option>
+                <option value="fish">fish</option>
+                <option value="steak">steak</option>
+                <option value="chicken">chicken</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Anount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="10">
+        </p>
+
+        <p>
+            <label for="requests">Any Special Requests?</label>
+            <textarea id="requests" rows="10" cols="20" name="requests?" placeholder="Typesomethinghere"></textarea>
+        </p>
+
+        <button>Submittttt</button>
+
+        <h2>Validations Demo</h2>
+
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first">
+        </form>
+
+    </form>
+
+
+</body>
+
+</html>
